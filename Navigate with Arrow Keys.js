@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         左右鍵翻頁 Navigate with Arrow Keys
-// @namespace    http://tampermonkey.net/
-// @version      1.2.5
+// @namespace    https://github.com/Shen255313/tampermonkey-scripts
+// @version      1.2.6
 // @description  使用左右鍵來翻上下頁
 // @author       ShenYJ
 // @homepage     https://greasyfork.org/zh-TW/scripts/510257-左右鍵翻頁-navigate-with-arrow-keys
