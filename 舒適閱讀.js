@@ -1,14 +1,27 @@
 // ==UserScript==
-// @name         懶人工具箱
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  整合多項常用功能，提昇網頁瀏覽體驗。
-// @author       Shen
+// @name         網頁小說舒適閱讀 (ComfyNovRead)
+// @namespace    https://github.com/Shen255313
+// @version      1.0.0
+// @description  提供舒適的網頁小說閱讀體驗
+// @author       ShenYJ
 // @match        http*://*/*
-// @icon         https://cdn.jsdelivr.net/gh/catlair/static/smilies/normal/ali_9.gif
-// @grant        GM_registerMenuCommand
-// @grant        GM_setValue
+// @grant        GM_addStyle
 // @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_registerMenuCommand
+// @grant        GM_openInTab
+// @grant        GM_notification
+// @grant        GM_setClipboard
+// @grant        GM_xmlhttpRequest
+// @grant        GM_download
+// @grant        GM_getTab
+// @grant        GM_saveTab
+// @grant        GM_getTabs
+// @grant        GM_deleteTab
+// @connect      *
+// @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
+// @require      https://cdn.jsdelivr.net/npm/localforage@1.10.0/dist/localforage.min.js
+// @require      https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js
 // ==/UserScript==
 
 (function() {
