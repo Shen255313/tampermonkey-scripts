@@ -3,7 +3,7 @@
 // @namespace    https://github.com/your-username/ComfyNovRead
 // @version      1.0.0
 // @description  提供舒適的網頁小說閱讀體驗
-// @author       Your Name
+// @author       ShenYJ
 // @match        *://*/*
 // @grant        GM_addStyle
 // @grant        GM_getValue
