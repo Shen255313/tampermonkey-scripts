@@ -1,14 +1,26 @@
 // ==UserScript==
-// @name         懶人工具箱
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  整合多項常用功能，提昇網頁瀏覽體驗。
-// @author       Shen
-// @match        http*://*/*
-// @icon         https://cdn.jsdelivr.net/gh/catlair/static/smilies/normal/ali_9.gif
-// @grant        GM_registerMenuCommand
-// @grant        GM_setValue
+// @name         網頁小說舒適閱讀 (ComfyNovRead)
+// @namespace    https://github.com/your-username/ComfyNovRead
+// @version      1.0.0
+// @description  提供舒適的網頁小說閱讀體驗
+// @author       Your Name
+// @match        *://*/*
+// @grant        GM_addStyle
 // @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_registerMenuCommand
+// @grant        GM_unregisterMenuCommand
+// @grant        GM_notification
+// @grant        GM_xmlhttpRequest
+// @grant        GM_download
+// @grant        GM_setClipboard
+// @grant        GM_info
+// @grant        GM_getResourceText
+// @grant        GM_getResourceURL
+// @grant        GM_listValues
+// @grant        GM_deleteValue
+// @grant        unsafeWindow
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
