@@ -184,7 +184,7 @@
                     align-items: center; /* 垂直置中對齊項目 */
                     background-color:#fe6d73; /* 設定背景顏色為 #fe6d73 */
                     color:#fff; /* 設定文字顏色為白色 */
-                    font-size: 15px; /* 設定字體大小為 15px */
+                    font-size: 30px; /* 設定字體大小為 30px */
                 }
                 /* 設置頁面列表容器樣式 - 包裹設置項目的 ul 元素 */
                 .zhm_iconSetPageLi{
