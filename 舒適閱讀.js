@@ -1,26 +1,14 @@
 // ==UserScript==
-// @name         網頁小說舒適閱讀 (ComfyNovRead)
-// @namespace    https://github.com/your-username/ComfyNovRead
-// @version      1.0.0
-// @description  提供舒適的網頁小說閱讀體驗
-// @author       ShenYJ
-// @match        *://*/*
-// @grant        GM_addStyle
-// @grant        GM_getValue
-// @grant        GM_setValue
+// @name         懶人工具箱
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  整合多項常用功能，提昇網頁瀏覽體驗。
+// @author       Shen
+// @match        http*://*/*
+// @icon         https://cdn.jsdelivr.net/gh/catlair/static/smilies/normal/ali_9.gif
 // @grant        GM_registerMenuCommand
-// @grant        GM_unregisterMenuCommand
-// @grant        GM_notification
-// @grant        GM_xmlhttpRequest
-// @grant        GM_download
-// @grant        GM_setClipboard
-// @grant        GM_info
-// @grant        GM_getResourceText
-// @grant        GM_getResourceURL
-// @grant        GM_listValues
-// @grant        GM_deleteValue
-// @grant        unsafeWindow
-// @run-at       document-start
+// @grant        GM_setValue
+// @grant        GM_getValue
 // ==/UserScript==
 
 (function() {
@@ -183,7 +171,7 @@
                     align-items: center; /* 垂直置中對齊項目 */
                     background-color:#fe6d73; /* 設定背景顏色為 #fe6d73 */
                     color:#fff; /* 設定文字顏色為白色 */
-                    font-size: 30px; /* 設定字體大小為 30px */
+                    font-size: 15px; /* 設定字體大小為 15px */
                 }
                 /* 設置頁面列表容器樣式 - 包裹設置項目的 ul 元素 */
                 .zhm_iconSetPageLi{
